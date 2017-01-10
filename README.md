@@ -1,3 +1,3 @@
 # ansible-role-certbot
 
-Ansible role that installs certbot on CentOS 7.
+Ansible role for installing Let's Encrypt client on CentOS 7 and Fedora.
