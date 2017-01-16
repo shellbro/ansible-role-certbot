@@ -1,5 +1,11 @@
 ---
-- name: install certbot
+- name: install certbot in Fedora
+  dnf:
+    name: certbot
+    state: present
+  when: ansible_distribution == "Fedora"
+- name: install certbot in CentOS
   yum:
     name: certbot
     state: present
+  when: ansible_distribution == "CentOS"
