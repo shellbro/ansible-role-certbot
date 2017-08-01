@@ -1,2 +1,4 @@
 ---
-- include: install-{{ ansible_distribution | lower }}.yml
+- name: install certbot
+  package: name=certbot state=present
+  become: yes
