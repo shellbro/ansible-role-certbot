@@ -1,2 +1,4 @@
 ---
-# tasks file for ansible-role-certbot/
+- name: install certbot
+  package: name=certbot state=present
+  become: yes
