@@ -13,8 +13,8 @@ Role Variables
 
 They are two variables specifying time when daily renewal of certificates happens. Defaults:
 
-    - renewal_minute: 41
-    - renewal_hour: 3
+    renewal_minute: 41
+    renewal_hour: 3
 
 Dependencies
 ------------
