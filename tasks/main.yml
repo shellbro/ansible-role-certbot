@@ -2,11 +2,11 @@
 - name: install certbot
   package: name=certbot state=present
   become: yes
-- name: set up a cron job
+- name: set up a cronjob
   cron:
     name: certbot
-    minute: 41
-    hour: 3
+    minute: "{{ renewal_minute }}"
+    hour: "{{ renewal_hour }}"
     job: certbot renew --post-hook "systemctl reload httpd" --quiet
     state: present
   become: yes
