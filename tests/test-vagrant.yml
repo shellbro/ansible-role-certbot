@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - role: shellbro.certbot
+      renewal_minute: 4
+      renewal_hour: 4
