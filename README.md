@@ -6,7 +6,7 @@ Ansible role for installing and configuring Let's Encrypt client in Fedora and C
 Requirements
 ------------
 
-Ansible version >= 2.0.0.
+Ansible version >= 2.0.
 
 Role Variables
 --------------
