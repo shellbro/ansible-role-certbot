@@ -1,6 +1,8 @@
 ---
 - name: install certbot
-  package: name=certbot state=present
+  package:
+    name: certbot
+    state: present
   become: yes
 - name: set up a cronjob
   cron:
