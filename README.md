@@ -1,7 +1,7 @@
 certbot
 =======
 
-Ansible role for installing and configuring Let's Encrypt client in Fedora and CentOS.
+Ansible role for installing and configuring Let's Encrypt client in Fedora and CentOS 7.
 
 Requirements
 ------------
