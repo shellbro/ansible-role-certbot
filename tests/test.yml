@@ -1,5 +1,6 @@
 ---
-- hosts: localhost
-  remote_user: root
+- hosts: all
   roles:
-    - ansible-role-certbot
+    - role: shellbro.certbot
+      renewal_minute: 4
+      renewal_hour: 4

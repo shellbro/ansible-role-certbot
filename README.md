@@ -1,6 +1,8 @@
 certbot
 =======
 
+[![Build Status](https://travis-ci.org/shellbro/ansible-role-certbot.svg?branch=master)](https://travis-ci.org/shellbro/ansible-role-certbot)
+
 Ansible role for installing and configuring Let's Encrypt client in Fedora and CentOS 7.
 
 Requirements
