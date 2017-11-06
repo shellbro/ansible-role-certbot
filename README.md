@@ -28,9 +28,9 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - role: shellbro.certbot
-           renewal_minute: 13
-           renewal_hour: 1
+        - role: shellbro.certbot
+          renewal_minute: 13
+          renewal_hour: 1
 
 License
 -------
