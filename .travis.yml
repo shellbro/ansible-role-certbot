@@ -5,8 +5,6 @@ env:
     version: 27
   - distribution: centos
     version: 7
-  - distribution: debian
-    version: jessie
 
 services:
   - docker
