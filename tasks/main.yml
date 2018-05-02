@@ -10,5 +10,4 @@
     minute: '{{ renewal_minute }}'
     hour: '{{ renewal_hour }}'
     job: /usr/bin/certbot renew --post-hook "systemctl reload httpd" --quiet
-    state: present
   become: yes
